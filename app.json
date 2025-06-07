@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "postai-frontend-mobile",
-    "slug": "postai-frontend-mobile",
+    "name": "predisante",
+    "slug": "predisante",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "postaifrontendmobile",
+    "scheme": "predisante",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
