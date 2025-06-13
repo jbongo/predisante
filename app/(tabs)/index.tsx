@@ -43,9 +43,7 @@ const DisclaimerCard = () => (
       </Text>
     </View>
     <Text className="text-gray-700 leading-5">
-      Cette application ne remplace en aucun cas une consultation médicale professionnelle. 
-      Elle est conçue pour vous guider et vous informer, mais ne constitue pas un diagnostic médical. 
-      En cas de doute ou d'urgence, consultez immédiatement un professionnel de santé.
+    Cette application informe et guide, mais ne remplace pas une consultation médicale. En cas de doute ou d'urgence, consultez un professionnel de santé.
     </Text>
   </View>
 );
@@ -93,6 +91,7 @@ export default function Home() {
         {/* En-tête moderne */}
         <View className="px-6 pt-6 pb-8">
           <View className="flex-row items-center justify-between mb-6">
+            <View className="w-20" /> {/* Espace vide à gauche pour équilibrer */}
             <View className="flex-row items-center space-x-3">
               <TouchableOpacity className="w-10 h-10 rounded-full bg-gray-100 items-center justify-center">
                 <FontAwesome5 name="bell" size={18} color="#374151" />
@@ -124,16 +123,16 @@ export default function Home() {
           <DisclaimerCard />
 
           {/* Section d'urgence */}
-          <TouchableOpacity className="bg-red-50 rounded-[28px] p-5 mb-6">
+          <TouchableOpacity className=" rounded-[28px] p-5 mb-6">
             <View className="flex-row items-center">
-              <View className="w-14 h-14 rounded-2xl bg-red-100 items-center justify-center">
+              <View className="w-14 h-14 rounded-2xl bg-slate-100 items-center justify-center">
                 <FontAwesome5 name="phone" size={24} color="#DC2626" />
               </View>
               <View className="ml-4 flex-1">
-                <Text className="text-red-700 font-bold text-xl">
+                <Text className="text-red-500 font-bold text-xl">
                   Urgence médicale ?
                 </Text>
-                <Text className="text-red-600 mt-1 text-base">
+                <Text className="text-gray-500 mt-1 text-base">
                   Composez le 15 immédiatement
                 </Text>
               </View>

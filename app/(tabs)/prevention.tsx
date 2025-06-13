@@ -91,7 +91,7 @@ export default function PreventionScreen() {
         {/* En-tête */}
         <View className="px-6 pt-6 pb-4">
           <Text className="text-3xl font-bold text-gray-900">
-            Bonjour, Claire
+            Bonjour, Jean 
           </Text>
           <Text className="text-gray-500 mt-1 capitalize">
             {today}

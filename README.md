@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# PreDiSante - Votre Assistant Santé Intelligent 🤖
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+PreDiSante est une application mobile innovante qui révolutionne l'accès aux soins de santé en combinant intelligence artificielle et expertise médicale. Notre mission est de rendre la santé plus accessible et préventive pour tous.
 
-## Get started
+## 🌟 Fonctionnalités Principales
 
-1. Install dependencies
+### 🔍 Module de Prédiagnostic
+- Analyse intelligente des symptômes
+- Interface intuitive pour décrire vos maux
+- Suggestions personnalisées basées sur vos symptômes
+- Recommandations de spécialistes adaptées
 
+### 📸 Détection du Cancer de Peau
+- Analyse avancée des lésions cutanées par IA
+- Détection précoce des anomalies
+- Suivi de l'évolution des grains de beauté
+- Recommandations personnalisées
+
+### 📅 Module de Prévention
+- Calendrier de santé personnalisé
+- Rappels de rendez-vous médicaux
+- Suivi des vaccinations
+- Conseils préventifs adaptés
+
+### ❤️ Module de Don
+- Information sur le don de sang
+- Don de moelle osseuse
+- Localisation des centres de don
+- Suivi des campagnes de don
+
+## 🚀 Technologies Utilisées
+
+- **Framework**: React Native avec Expo
+- **Navigation**: Expo Router
+- **UI/UX**: TailwindCSS
+- **Intelligence Artificielle**: Modèles de deep learning personnalisés
+- **Base de données**: Firebase
+- **Authentification**: Système sécurisé multi-facteurs
+
+## 🛠 Installation
+
+1. Cloner le repository
+   ```bash
+   git clone https://github.com/votre-username/predisante.git
+   ```
+
+2. Installer les dépendances
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Lancer l'application
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 📱 Compatibilité
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- iOS 13.0 et versions ultérieures
+- Android 8.0 et versions ultérieures
+- Optimisé pour les dernières versions d'Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🔒 Sécurité et Confidentialité
 
-## Get a fresh project
+- Chiffrement de bout en bout des données
+- Conformité RGPD
+- Authentification biométrique
+- Protection des données médicales
 
-When you're ready, run:
+## 🤝 Contribution
 
-```bash
-npm run reset-project
-```
+Nous accueillons les contributions ! Consultez notre guide de contribution pour plus d'informations.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📄 Licence
 
-## Learn more
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📞 Support
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Pour toute question ou assistance :
+- Email : support@predisante.com
+- Documentation : [docs.predisante.com](https://docs.predisante.com)
+- Discord : [Rejoindre notre communauté](https://discord.gg/predisante)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Développé avec ❤️ par l'équipe PreDiSante

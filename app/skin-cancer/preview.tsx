@@ -18,9 +18,17 @@ export default function SkinCancerPreview() {
         pathname: "./results",
         params: { 
           image,
-          risk: "moderate",
-          type: "dysplastic_nevus",
-          advice: "Consultation recommandée dans les 3 mois"
+          risk: "high",
+          type: "basal_cell_carcinoma",
+          advice: "Prenez rendez-vous avec un dermatologue dès que possible",
+          confidence: "69",
+          additionalResults: JSON.stringify([
+            { name: "Kératose actinique", probability: "25" },
+            { name: "Mélanome", probability: "2.6" },
+            { name: "Grain de beauté bénin", probability: "2.4" },
+            { name: "Lésion vasculaire", probability: "0.5" }
+          ]),
+          description: "Le carcinome basocellulaire est un type fréquent de cancer de la peau. Il évolue lentement et est rarement dangereux s'il est traité rapidement. Il apparaît souvent sur les zones exposées au soleil (visage, cou, oreilles…)."
         }
       });
     }, 2000);
